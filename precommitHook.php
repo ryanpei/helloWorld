@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-echo 'Running php lint...'; 
+echo 'Running php lint...';
 $output = array();
 $return = 0;
 exec('git rev-parse --verify HEAD 2> /dev/null', $output, $return);
