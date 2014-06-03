@@ -1,8 +1,7 @@
 #!/usr/bin/php
 <?php
- 
-// copied from http://phpadvent.org/2008/dont-commit-that-error-by-travis-swicegood
-// authored by Travis Swicegood
+
+echo 'Running php lint...'; 
 $output = array();
 $return = 0;
 exec('git rev-parse --verify HEAD 2> /dev/null', $output, $return);
@@ -35,3 +34,4 @@ foreach ($output as $file) {
 }
  
 exit($exit_status);
+?>
