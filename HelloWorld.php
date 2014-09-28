@@ -1,3 +1,4 @@
 <?php
-	echo "Hello precious"
+	echo "Hello world";
+	echo "Goodbye world";
 ?>
